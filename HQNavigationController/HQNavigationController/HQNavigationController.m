@@ -48,6 +48,7 @@
 
     if (self.viewControllers.count >= 1) {
     
+        viewController.hidesBottomBarWhenPushed = YES;
         [self screenshot];
         
     }
